@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BOOKSTORE</string>
+    <string name="add_mag">Добавить магазин</string>
+    <string name="add_book">Добавить книгу</string>
+    <string name="start">Start</string>
+</resources>

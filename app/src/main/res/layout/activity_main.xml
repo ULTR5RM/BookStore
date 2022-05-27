@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cec9c1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="258dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:text="Добро пожаловать в приложение Bookstore! В этом приложение собраны все книжные магазины Нововсибирска, а так же книги присутствующие в этих магизинах. Можно найти удобный по расположению магазин, или добавить новый ассортимент, если таковой отсутствует в нашем приложении:) "
+        android:textColor="#322F2B"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="387dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="296dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/froggy" />
+</androidx.constraintlayout.widget.ConstraintLayout>
